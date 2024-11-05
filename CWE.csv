@@ -1,0 +1,88 @@
+answer_id,Weaknesses,Severity
+1,,
+2,"CWE-295, CWE-297","High, Medium"
+3,,
+4,"CWE-327, CWE-328",High
+5,,
+6,"CWE-327, CWE-328, CWE-1204, CWE-329",High
+7,"CWE-327, CWE-328",High
+8,"CWE-327, CWE-328",High
+9,,
+10,,
+11,,
+12,,
+13,"CWE-327, CWE-328",High
+14,"CWE-327, CWE-328",High
+15,"CWE-1204, CWE-329",High
+16,"CWE-327, CWE-328",High
+17,"CWE-327, CWE-328",High
+18,CWE-295,High
+19,,
+20,"CWE-327, CWE-328, CWE-1204, CWE-329",High
+21,"CWE-327, CWE-328",High
+22,"CWE-327, CWE-328",High
+23,CWE-295,High
+24,,
+25,"CWE-327, CWE-328",High
+26,"CWE-327, CWE-328",High
+27,"CWE-295, CWE-297","High, Medium"
+28,,
+29,,
+30,,
+31,"CWE-327, CWE-328",High
+32,,
+33,,
+34,"CWE-327, CWE-328, CWE-1204, CWE-329",High
+35,,
+36,"CWE-327, CWE-328",High
+37,,
+38,,
+39,"CWE-335, CWE-337",Critical
+40,,
+41,"CWE-327, CWE-328, CWE-1204, CWE-329",High
+42,"CWE-327, CWE-328",High
+43,,
+44,"CWE-327, CWE-328",High
+45,CWE-295,High
+46,CWE-326,High
+47,,
+48,CWE-295,High
+49,"CWE-327, CWE-328",High
+50,,
+51,"CWE-327, CWE-780",High
+52,"CWE-327, CWE-328",High
+53,"CWE-327, CWE-328",High
+54,"CWE-327, CWE-328",High
+55,"CWE-327, CWE-328",High
+56,"CWE-327, CWE-328",High
+57,"CWE-327, CWE-328",High
+58,,
+59,,
+60,CWE-326,High
+61,"CWE-327, CWE-328",High
+62,,
+63,,
+64,,
+65,,
+66,,
+67,CWE-780,High
+68,"CWE-327, CWE-328",High
+69,"CWE-327, CWE-328",High
+70,,
+71,"CWE-327, CWE-328",High
+72,,
+73,"CWE-327, CWE-328",High
+74,,
+75,"CWE-327, CWE-328",High
+76,"CWE-327, CWE-328, CWE-1204, CWE-329",High
+77,,
+78,,
+79,,
+80,CWE-780,High
+81,"CWE-327, CWE-328",High
+82,,
+83,,
+84,,
+85,,
+86,"CWE-327, CWE-328",High
+87,CWE-327,High

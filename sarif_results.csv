@@ -1,0 +1,106 @@
+rule_id,message,severity,file_uri,start_line,start_column
+java/unsafe-hostname-verification,"The [hostname verifier](1) defined by [this type](2) always accepts any certificate, even if the hostname does not match.",,src/main/java/com/example/TrustAllCertificates.java,33,59
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [TrustAllCertificates$](2) and trusts any certificate.",,src/main/java/com/example/TrustAllCertificates.java,29,35
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/MD5Checksum.java,22,32
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/TripleDESTest.java,36,47
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/TripleDESTest.java,54,49
+java/weak-cryptographic-algorithm,Cryptographic algorithm [md5](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,26,34
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,33,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,35,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [md5](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,44,34
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,51,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/TripleDESTest.java,53,27
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/CryptoUtils.java,22,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/CryptoUtils.java,29,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/MD5Hash.java,10,32
+java/weak-cryptographic-algorithm,Cryptographic algorithm [HmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/HmacExample.java,15,33
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESDecrypt.java,16,29
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/AppendableEncryptedLog.java,18,55
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/FixedKeyEncryption.java,13,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/ECB/NoPadding](1) is weak and should not be used.,,src/main/java/com/example/AESHexEncrypt.java,20,29
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [HttpsClient$](2) and trusts any certificate.",,src/main/java/com/example/HttpsClient.java,32,35
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/Crypt.java,18,57
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Crypt.java,17,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/MD5Hash.java,9,36
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,17,32
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,24,35
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/ECB/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,25,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,41,32
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,48,35
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/ECB/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/CryptoHelper.java,49,29
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [NaiveTrustManager](2) and trusts any certificate.",,src/main/java/com/example/NaiveTrustManager.java,25,27
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESUtil.java,19,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESUtil.java,28,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/PasswordHasher.java,29,32
+java/unsafe-hostname-verification,"The [hostname verifier](1) defined by [this type](2) always accepts any certificate, even if the hostname does not match.",,app/src/main/java/question/MainActivity.java,46,59
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [MainActivity$](2) and trusts any certificate.",,app/src/main/java/question/MainActivity.java,42,27
+java/weak-cryptographic-algorithm,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is weak and should not be used.
+Cryptographic algorithm [Twofish/ECB/PKCS5Padding](2) is weak and should not be used.",,src/main/java/com/example/CryptoExample.java,16,25
+java/weak-cryptographic-algorithm,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is weak and should not be used.
+Cryptographic algorithm [Twofish/ECB/PKCS5Padding](2) is weak and should not be used.",,src/main/java/com/example/CryptoExample.java,17,33
+java/weak-cryptographic-algorithm,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is weak and should not be used.
+Cryptographic algorithm [Twofish/ECB/PKCS5Padding](2) is weak and should not be used.",,src/main/java/com/example/CryptoExample.java,24,25
+java/weak-cryptographic-algorithm,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is weak and should not be used.
+Cryptographic algorithm [Twofish/ECB/PKCS5Padding](2) is weak and should not be used.",,src/main/java/com/example/CryptoExample.java,25,33
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/SimpleAES.java,29,57
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/SimpleAES.java,48,57
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/SimpleAES.java,28,29
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/SimpleAES.java,29,57
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/SimpleAES.java,48,57
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/SimpleAES.java,28,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/OpenSSLAESEncryption.java,25,25
+java/predictable-seed,Usage of a SecureRandom number generator seeded with a [predictable value](1).,,src/main/java/com/example/SynchronizedRandom.java,17,32
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/Md5Encryption.java,27,47
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/Md5Encryption.java,46,49
+java/weak-cryptographic-algorithm,Cryptographic algorithm [md5](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,17,34
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,24,31
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,26,31
+java/weak-cryptographic-algorithm,Cryptographic algorithm [md5](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,36,34
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,43,31
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DESede/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Md5Encryption.java,45,33
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/MD5Hashing.java,10,27
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/Util.java,9,32
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [DownloadFileExample$](2) and trusts any certificate.",,src/main/java/com/example/DownloadFileExample.java,24,23
+java/insufficient-key-size,This [key size](1) is less than the recommended key size of 2048 bits.,,src/main/java/com/example/RSAKeyPairGenerator.java,11,31
+java/insecure-trustmanager,"This uses [TrustManager](1), which is defined in [RetrievePublicKey$](2) and trusts any certificate.",,src/main/java/com/example/RetrievePublicKey.java,27,31
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DES](1) is weak and should not be used.,,src/main/java/com/example/Gen_DESAES_key.java,14,41
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DES/ECB/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Gen_DESAES_key.java,18,32
+cs/inadequate-rsa-padding,Enable RSA padding.,,target/classes/com/example/Main.cs,28,53
+cs/inadequate-rsa-padding,Enable RSA padding.,,src/main/java/com/example/Main.cs,28,53
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/MCrypt.java,16,22
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DES](1) is weak and should not be used.,,src/main/java/com/example/DesEncryptionExample.java,13,43
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DES](1) is weak and should not be used.,,src/main/java/com/example/DesEncryptionExample.java,28,36
+java/weak-cryptographic-algorithm,Cryptographic algorithm [DES](1) is weak and should not be used.,,src/main/java/com/example/DesEncryptionExample.java,29,36
+java/weak-cryptographic-algorithm,Cryptographic algorithm [HmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/OAuthSignatureExample.java,13,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/OpenSSLAESDecryptor.java,37,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/OpenSSLAESDecryptor.java,62,28
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS7Padding](1) is weak and should not be used.,,src/main/java/com/example/AES256PasswordBasedEncryption.java,25,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESDecryptor.java,19,25
+java/insufficient-key-size,This [key size](1) is less than the recommended key size of 2048 bits.,,src/main/java/com/example/RSAEncryption.java,13,33
+java/weak-cryptographic-algorithm,Cryptographic algorithm [PBKDF2WithHmacSHA1](1) is weak and should not be used.,,app/src/main/java/prova60/EncryptionHelper.java,17,49
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,app/src/main/java/prova60/EncryptionHelper.java,33,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,app/src/main/java/prova60/EncryptionHelper.java,53,25
+java/rsa-without-oaep,This specification is used to [initialize an RSA cipher](1) without OAEP padding.,,src/main/java/com/example/Encryptor.java,14,44
+java/weak-cryptographic-algorithm,Cryptographic algorithm [MD5](1) is weak and should not be used.,,src/main/java/com/example/AvailableHashAlgorithms.java,15,36
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/EncryptionHelper.java,15,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [PBKDF2WithHmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/EncryptionDecryption.java,38,32
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/EncryptionDecryption.java,42,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [PBKDF2WithHmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/EncryptionDecryption.java,55,32
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/EncryptionDecryption.java,59,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AesEncryptionExample.java,34,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AesEncryptionExample.java,41,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [HmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/HashGenerator.java,22,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [HmacSHA1](1) is weak and should not be used.,,src/main/java/com/example/HashVerifier.java,21,29
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/Encrypt.java,30,50
+java/static-initialization-vector,A [static initialization vector](1) should not be used for encryption.,,src/main/java/com/example/Encrypt.java,40,50
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Encrypt.java,29,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/Encrypt.java,39,25
+java/rsa-without-oaep,This specification is used to [initialize an RSA cipher](1) without OAEP padding.,,src/main/java/com/example/PublicPrivateKey.java,12,44
+java/rsa-without-oaep,This specification is used to [initialize an RSA cipher](1) without OAEP padding.,,src/main/java/com/example/PublicPrivateKey.java,20,44
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/EncryptionHelper.java,31,29
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESUtil.java,22,25
+java/weak-cryptographic-algorithm,Cryptographic algorithm [AES/CBC/PKCS5Padding](1) is weak and should not be used.,,src/main/java/com/example/AESUtil.java,29,25
+cs/ecb-encryption,The ECB (Electronic Code Book) encryption mode is vulnerable to replay attacks.,,src/main/java/com/example/Encryptor.cs,17,24
+cs/ecb-encryption,The ECB (Electronic Code Book) encryption mode is vulnerable to replay attacks.,,target/classes/com/example/Encryptor.cs,17,24
+cs/weak-encryption,TripleDES encryption provides at most 112 bits of security. Switch to AesCryptoServiceProvider or RijndaelManaged instead.,,src/main/java/com/example/Encryptor.cs,14,61
+cs/weak-encryption,TripleDES encryption provides at most 112 bits of security. Switch to AesCryptoServiceProvider or RijndaelManaged instead.,,target/classes/com/example/Encryptor.cs,14,61
